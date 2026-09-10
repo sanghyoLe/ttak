@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-10",
+  "signals": "existing React mini-game; user requested complete 3D interaction",
+  "fontStack": "Gasoek One + Noto Sans KR Variable",
+  "palette": "named OKLCH tokens; sage surfaces and porcelain/resin game objects",
+  "motion": "Three.js geometry; reduced-motion support; idle/hidden rendering paused",
+  "spacing": "existing 4pt semantic spacing tokens",
+  "framework": "React 19 + Vite + Three.js"
+}

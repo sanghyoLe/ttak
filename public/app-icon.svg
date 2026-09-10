@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">딱. 앱 아이콘</title>
+  <desc id="desc">크림색 바탕 위에 수평으로 맞춰진 노란 판</desc>
+  <rect width="1024" height="1024" fill="#F8F7ED"/>
+  <rect x="112" y="488" width="800" height="10" rx="5" fill="#3976C7"/>
+  <rect x="184" y="362" width="656" height="286" rx="92" fill="#191A1F"/>
+  <rect x="204" y="342" width="616" height="286" rx="86" fill="#ECEF3F"/>
+  <circle cx="302" cy="485" r="24" fill="#191A1F"/>
+  <circle cx="722" cy="485" r="24" fill="#191A1F"/>
+  <rect x="776" y="220" width="88" height="88" rx="24" fill="#EF4D45" transform="rotate(12 820 264)"/>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "name": "ttak",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "dev:toss": "AIT_DEVTOOLS=1 VITE_PLATFORM=toss vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "build:web": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && VITE_PLATFORM=toss vite build && ait build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@apps-in-toss/web-framework": "3.4.0",
+    "@fontsource-variable/noto-sans-kr": "^5.3.0",
+    "@fontsource/gasoek-one": "^5.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@apps-in-toss/devtools": "^3.2.0",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.5.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  }
+}

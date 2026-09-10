@@ -1,0 +1,65 @@
+/* Hallmark · custom theme · light / display-heavy / cool · perfect expectation / comic failure */
+:root {
+  --surface-base: oklch(93.4% 0.018 119);
+  --surface-sunken: oklch(91% 0.028 91);
+  --surface-raised: oklch(99% 0.008 91);
+  --text-primary: oklch(26% 0.026 143);
+  --text-secondary: oklch(45% 0.025 135);
+  --border-muted: oklch(66% 0.02 255);
+  --border-subtle: oklch(83% 0.025 91);
+  --accent-primary: oklch(56% 0.22 260);
+  --accent-primary-shadow: oklch(42% 0.2 260);
+  --accent-highlight: oklch(85% 0.17 91);
+  --accent-highlight-shadow: oklch(65% 0.15 91);
+  --accent-warm: oklch(68% 0.19 27);
+  --accent-warm-shadow: oklch(49% 0.17 27);
+  --accent-fresh: oklch(78% 0.13 157);
+  --accent-fresh-shadow: oklch(52% 0.12 157);
+  --focus-ring: oklch(49% 0.22 260);
+  --text-error: oklch(43% 0.15 28);
+  --button-shadow: oklch(16% 0.02 143);
+  --press-fill: oklch(40% 0.046 143);
+  --object-porcelain: oklch(95% 0.011 92);
+  --object-recess: oklch(63% 0.038 135);
+  --object-yellow: oklch(82% 0.162 87);
+  --object-coral: oklch(68% 0.174 34);
+  --object-blue: oklch(69% 0.116 236);
+  --object-mint: oklch(77% 0.097 162);
+  --object-shadow: oklch(33% 0.038 136);
+  --light-key: oklch(99% 0.008 86);
+  --z-controls: 2;
+
+  --font-display: "Gasoek One", "Noto Sans KR Variable", sans-serif;
+  --font-body: "Noto Sans KR Variable", sans-serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.625rem;
+  --text-xl: 2.125rem;
+  --text-display: clamp(3rem, 10.5vw, 5.5rem);
+
+  --ease-snap: cubic-bezier(0.2, 1.45, 0.32, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-micro: 100ms;
+  --dur-short: 220ms;
+  --dur-snap: 150ms;
+  --dur-page: 380ms;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-board: 1.625rem;
+  --shell: 47.5rem;
+  --gutter: clamp(1rem, 5vw, 2rem);
+  --safe-top: max(0.75rem, env(safe-area-inset-top));
+  --safe-bottom: max(1.25rem, env(safe-area-inset-bottom));
+}

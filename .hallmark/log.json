@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-09-10",
+    "macrostructure": "Immersive 3D Playfield",
+    "theme": "custom",
+    "theme_axes": "light / display-heavy / sage",
+    "vibe": "입체 장난감, 정밀한 기대, 물리적 배신",
+    "enrichment": "interactive WebGL geometry with studio lighting",
+    "brief": "사용자 요청: UI/UX 전체를 실제 3D 게임 공간으로 전환. 마우스·터치 조작과 네 가지 실패 연출, 수동 재시도."
+  },
+  {
+    "date": "2026-09-10",
+    "macrostructure": "Looped Reveal",
+    "theme": "custom",
+    "theme_axes": "light / display-heavy / cool",
+    "vibe": "완벽한 기대, 1mm 배신, 코미디",
+    "enrichment": "pure CSS interaction",
+    "brief": "Perfect Fit처럼 보이지만 사용자 조작 순간 절대 맞지 않는 실패 게임"
+  },
+  {
+    "date": "2026-09-10",
+    "macrostructure": "Narrative Workflow",
+    "theme": "custom",
+    "theme_axes": "light / display-heavy / cool",
+    "vibe": "정밀한 촉감, 연속 정돈, 무실패",
+    "enrichment": "pure CSS interaction",
+    "brief": "여러 조각이 자석처럼 연속 흡착되는 무실패 정리 앱"
+  },
+  {
+    "date": "2026-09-09",
+    "macrostructure": "Workbench",
+    "theme": "Hum",
+    "enrichment": "none",
+    "brief": "어긋난 물체를 손으로 딱 맞추는 네 단계 감각 게임"
+  }
+]
